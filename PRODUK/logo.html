@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css">
+        <style>
+        html, body,
+         #menu {
+    list-style-type: none;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    width: 20%;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: slategray;
+} 
+                #judul {
+            top: 5px;
+            font-size: 30px;
+            width: 1010px;
+            border-bottom: 5px solid dimgray;
+            border-top: 2px solid slategray;
+            border-style: inside;
+
+
+        }
+
+ 
+         #map {
+            top: 5px;
+            left: 0px;
+            right: 0px;
+            width: 1000px;
+            height: 600px;
+            padding: 0px;
+            margin: 0px;
+            border: 5px solid grey;
+        }
+
+
+        #logo {
+            position: absolute;
+            padding: 0px;
+            top: 0px;
+            width: 300px;
+            margin-left: 1020px;
+            height: 70px;
+            border: 0px solid dimgray;
+
+             }
+
+        .text {
+            position: fixed;
+            bottom: 550px;
+            right: 20px;
+            font-weight: bold;
+            font-size: 14px;
+
+        }
+
+        .list 
+        li {    
+    list-style-type: square;
+    list-style-position: left;
+    right: 50px;
+    width: 200px;
+    width: 100%
+    margin: 0;
+    padding: 0;
+    } 
+        
+
+
+        </style>
+        <title></title>
+    </head>
+    <body style="background-color:lightgrey">
+        <div id="judul" align="center">SENDANGSARI SMARTVILLAGE</div>
+         <div id="Menu">
+         <ul id="menu">
+            <li><a href="/RTM/">RTM</a></li>
+            <li><a href="/SPR/">SARPRAS</a></li>
+            <li><a href="/AGRIKULTUR/">AGRIKULTUR</a></li>
+            <li><a class="active">PRODUK</a></li>
+            <li><a href="/www.smartvillagesendangsari.com/">BERANDA</a></li>
+        </ul>
+    </div>
+        
+        <div id="map">
+        <img src="Maintenance.png" width="1000" height="400">
+        </div>
+        <div id="logo">
+
+        <img src="/produk/kp.png" width="72" height="96">
+        <div class="text">
+        <br>PEMERINTAH DESA SENDANGSARI</br>
+        <br style="padding">KABUPATEN KULON PROGO</br>
+        </div>
+        
+        </div>
+        </div>       
+    </body>
+</html>
